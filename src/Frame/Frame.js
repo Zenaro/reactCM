@@ -6,7 +6,7 @@ export default class Frame extends Component {
 	render() {
 		return (
 			<div>
-				Frame
+				<div className="header"></div>
 				{this.props.children}
       		</div>
 		);
